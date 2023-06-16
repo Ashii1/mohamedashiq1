@@ -1,6 +1,7 @@
-
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
-import { FaBeer } from "react-icons/fa";
+
 
 
 import { Link } from 'react-scroll';
@@ -23,7 +24,8 @@ function App() {
         <Link to='Contacts' smooth={true} duration={500}>
           <h4>Contacts</h4>
         </Link>
-        <FaBeer />
+    
+        <FontAwesomeIcon icon={faBars} />
       </div>
      
    
