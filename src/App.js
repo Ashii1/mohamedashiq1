@@ -1,7 +1,6 @@
 
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 import { Link } from 'react-scroll';
 function App() {
   return (
@@ -24,9 +23,7 @@ function App() {
         </Link>
        
       </div>
-      <div className='baricon'>
- <FontAwesomeIcon icon={faBars} />
-</div>
+     
 
     </div>
   );
