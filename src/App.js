@@ -1,5 +1,7 @@
 
 import './App.css';
+import { FaBeer } from "react-icons/fa";
+
 
 import { Link } from 'react-scroll';
 function App() {
@@ -21,7 +23,7 @@ function App() {
         <Link to='Contacts' smooth={true} duration={500}>
           <h4>Contacts</h4>
         </Link>
-       
+        <FaBeer />
       </div>
      
    
