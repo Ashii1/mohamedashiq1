@@ -58,7 +58,7 @@ function Project() {
   return (
     <div className='project-container' id='Projects'>
       <h1>MyProjects</h1>
-      <p>Check Out My projects</p>
+      <h4>Check Out My projects</h4>
       <div className='project-container-projects'>
         {projects.map((project, index) => (
           <ProjectCo
