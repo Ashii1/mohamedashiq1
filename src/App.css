@@ -6,6 +6,7 @@
 }
 
 body {
+  background-color: black;
 
   width: 100%;
 }
@@ -20,6 +21,7 @@ body {
   z-index: 2000;
   overflow: hidden;
   width: 100%;
+  border-bottom: 2px solid white;
 }
 
 .header-left {
@@ -107,6 +109,7 @@ body {
   top: 122px;
    left: 700px;*/
   margin: 50px;
+  color: white;
 }
 
 .topcontent-container h2 {
@@ -177,6 +180,7 @@ body {
   align-items: center;
   margin: 100px 0;
   justify-content: center;
+  color: white;
 }
 
 .skillcontainer-text {
@@ -226,11 +230,7 @@ body {
   padding-top: 10px;
 }
 
-/*.project-container-projects img {
-  width: 350px;
-  height: 170px;
-  border: 2px solid black;
-}*/
+
 .project img {
   width: 100%;
   height: 100%;
@@ -317,6 +317,7 @@ body {
     padding: 80px 0;
     text-align: center;
     column-gap: 90px;
+    color: white;
   }
 
 
@@ -338,7 +339,7 @@ body {
 
   }
 
-  .contact {
+  .contact {  color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -347,7 +348,8 @@ body {
   }
 
   .contact-container {
-    border: 1px solid black;
+  
+    border: 1px solid rgb(255, 255, 255);
     display: flex;
     width: 600px;
     height: 200px;
@@ -407,6 +409,9 @@ body {
     .skill-img img {
       /* */
       max-width: 300px;
+    }
+    .project-container{
+      padding-left: 100px;
     }
 
     .contact {
