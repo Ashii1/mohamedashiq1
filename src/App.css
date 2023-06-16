@@ -355,6 +355,9 @@ a {
     margin: 156px 0 0 43px;
     display: block;
   }
+  .skillcontainer-text{
+    margin-top: 20px;
+  }
 
   .skill-img img {
     /* */
@@ -399,6 +402,7 @@ a {
     box-shadow: 0 40px 60px rgb(255, 255, 255);
     padding: 0;
     margin: 0;
+    transition: 0.3s ease-in-out;
   }
 
   #clck h4 {
